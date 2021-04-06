@@ -54,6 +54,7 @@ nav a:hover{
     justify-content: center;
     width: 75%;
     margin: 0 auto;
+    align-items: flex-start;
 }
 
 
@@ -132,6 +133,7 @@ nav a:hover{
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 0px;
+    align-items: flex-start;
 }
 
 .skill li{
