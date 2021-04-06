@@ -111,6 +111,7 @@ nav a:hover{
     width: 60%;
     margin: 0 auto;
     margin-bottom: 80px;
+    align-items: flex-start;
 }
 
 .service-pic{
