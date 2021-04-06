@@ -1,0 +1,185 @@
+.wrap{
+    overflow: hidden;
+}
+
+body{
+    margin: 0;
+}
+
+header h1{
+    text-align: center;
+    margin: 0;
+    padding: 200px 0;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    background-color: white;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 20px 60px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.205);
+}
+
+.aboutme{
+    text-align: center;
+    margin: 350px 0 200px 0;
+    font-size: 30px;
+}
+
+.fixed{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    box-shadow: 0 3px 10px;
+}
+
+.profile{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.profile-pic{
+    width: 30%;
+    border-radius: 50%;
+    margin: 0 40px;
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.text{
+    margin-top: 200px;
+    background-color: rgba(128, 128, 128, 0.199);
+    padding: 10px 0;
+    width: 50%;
+    margin: 80px auto;
+    border-radius: 10px;
+}
+
+.text p{
+    text-align: center;
+}
+
+.works{
+    text-align: center;
+}
+
+.works h1{
+    font-size: 45px;
+    margin-top: 120px;
+}
+
+.related{
+    text-align: center;
+}
+.pic{
+    margin: 100px auto;
+    width: 20%;
+    border-radius: 50%;
+}
+
+.service{
+    text-align: center;
+    font-size: 45px;
+    margin: 200px 0 150px 0;
+}
+
+.service-list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.service-pic{
+    width: 250px;
+    margin-right: 20px;
+}
+
+
+.skill-logo{
+    font-size: 45px;
+    text-align: center;
+    margin: 150px 0;
+}
+
+.skill ul{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 0px;
+}
+
+.skill li{
+    margin-right: 20px;
+}
+
+.skill p{
+    font-size: 20px;
+}
+
+.skill img{
+    width: 160px;
+    border-radius: 50%;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 45px;
+    margin: 120px 0;
+}
+
+input,textarea,label{
+    display: block;
+    width: 500px;
+    margin: 0 auto;
+}
+
+input{
+    height: 30px;
+}
+
+textarea{
+    height: 100px;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 0 10px;
+    background-color: rgba(133, 185, 56, 0.5);
+    border-radius: 10px;
+    border-color: rgba(133, 185, 56);
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+form{
+    margin-bottom: 200px;
+}
+
+

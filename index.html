@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <h1>〜My Profile Site〜</h1>
+        </header>
+        <nav>
+            <a href="#aboutme">about me</a>
+            <a href="#works">works</a>
+            <a href="#service">service</a>
+            <a href="#skill">skill</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <section class="aboutme">
+            <h1 id="aboutme">about me</h1>
+        </section>
+        <section class="profile">
+            <img class="profile-pic" src="/Users/arimurahayato/ポートフォリオサイト２/img/IMG_0265.JPG">
+            <div class="content">
+                <h1>有村　颯斗</h1>
+                <p>✓2000年5月生まれ(20歳）</p>
+                <p>✓福岡県出身</p>
+                <p>✓国立高校卒業後、半年間の実習を終えて就職</p>
+                <p>✓１年間、船舶エンジニアとして務める</p>
+                <p>✓現在はWebマーケター、フリーランスとしてWeb制作を行っています。</p>
+            </div>
+        </section>
+        <section class="text">
+            <p>初めまして、有村　颯斗　と申します。</p>
+            <p>Webマーケター、Web制作、コンサルティングなどのフリーランス活動を行っています。</p>
+            <p>「質」と「スピード」を重視し、丁寧なコミュニケーションを心がけて仕事をさせていただきます。</p>
+            <p>それぞれのご要望に近づけれるように全力を尽くすので宜しくお願いします。</p>
+        </section>
+        <section id="works" class="works">
+            <h1>works</h1>
+            <a href=""><img class="pic" src="/Users/arimurahayato/ポートフォリオサイト２/img/IMG_9667.JPG"></a>
+            <p>食べ歩きが好きということもあり、それに関するサイトを作成しました。</p>
+        </section>
+        <h1 id="service" class="service">service</h1>
+        <section>
+            <div class="service-list">
+                <img class="service-pic" src="http://yuya1604.com/img/profile/servicecording.jpeg" >
+                <div class="center">
+                    <h1>〜コーディング〜</h1>
+                    <p>LP制作：￥10.000〜/１P</p>
+                    <p>コード修正：￥5.000〜/1P</p>
+                    <p>目的に応じたコーポレイトサイトやLPなどにコーディングを行います。（レスポンシブ対応可能）</p>
+                    <p>納期目安：2周間以内</p>
+                    <p>コード修正・お問合せフォームの設置</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="service-list">
+                <img class="service-pic" src="http://yuya1604.com/img/profile/serviceWordPress.jpeg" >
+                <div class="center">
+                    <h1>〜WordPress〜</h1>
+                    <p>WordPress移行：￥100.000〜</p>
+                    <p>WordPress制作：￥200.000〜</p>
+                    <p>納期目安：２週間以内</p>
+                    <p>コーポレートサイトやウェブマガジン、ブログのWordPressサイト構築</p>
+                    <p>既存サイトのWordPress移行、コード修正</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="service-list">
+                <img class="service-pic" src="http://yuya1604.com/img/profile/servicewebdesigh.jpeg" >
+                <div class="center">
+                    <h1>〜Webデザイン〜</h1>
+                    <P>LP制作：￥30.000〜/1P</p>
+                    <p>コーポレートサイト：￥150.000〜</p>
+                    <p>ご要望に沿ったデザインを把握するためにヒアリングを行い作成いたします。</p>
+                </div>
+            </div>
+        </section>
+        <div class="related">
+            <p >※正式なお見積りは、別途ご相談させていただきます。</p>
+        </div>
+        <section id="skill" class="skill">
+            <h1 class="skill-logo">skill</h1>
+            <ul>
+                <li>
+                    <img src="/Users/arimurahayato/ポートフォリオサイト２/img/IMG_0266.JPG">
+                    <p>HTML&CSS</p>
+                </li>
+                <li>
+                    <img src="/Users/arimurahayato/ポートフォリオサイト２/img/IMG_0269.jpg">
+                    <p>JavaScript & jQuery</p>
+                </li>
+                <li>
+                    <img src="/Users/arimurahayato/ポートフォリオサイト２/img/IMG_0270.jpg">
+                    <p>WordPress</p>
+                </li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h1>contact</h1>
+            <form action="process.php" method="POST">
+                <label>お名前（必須）<input type="text"></label>
+                <label>メールアドレス（必須）<input type="text"></label>
+                <label>電話番号（必須）<input type="text"></label>
+                <label >お問い合わせ内容<textarea></textarea></label>
+                <input class="btn" type="button" value="送信">
+            </form>
+        </section>
+        
+        
+        
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </div>
+    </body>
+    </html>
