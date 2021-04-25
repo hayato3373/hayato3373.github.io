@@ -31,7 +31,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.096);
 }
 
 .aboutme{
@@ -184,6 +184,11 @@ textarea{
 
 form{
     margin-bottom: 200px;
+}
+
+form p{
+    text-align: center;
+    font-size: 10px;
 }
 
 
